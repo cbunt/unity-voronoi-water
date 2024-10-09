@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SPACE_WORLD_SAMPLE
+  - _SPACE_OBJECT
   m_InvalidKeywords:
   - _SPACE_TANGENT
   m_LightmapFlags: 4
@@ -91,9 +91,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _Displacement: 0.175
     - _DstBlend: 0
-    - _Flow_Loop_Length: 0.1
+    - _Flow_Loop_Length: 20
     - _Flow_Speed: 0.075
-    - _Flow_Strength: 8.38
+    - _Flow_Strength: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -105,7 +105,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SPACE: 2
+    - _SPACE: 1
     - _Smoothness: 0.25
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -115,10 +115,10 @@ Material:
     - _UVSec: 0
     - _VoronoiAngleOffset: 15
     - _Voronoi_Angle_Offset: 3.7
-    - _Voronoi_Scale: 3
+    - _Voronoi_Scale: 2
     - _Voronoi_Shear: 2
-    - _Voronoi_Speed: 0.25
-    - _Voronoi_Stretch: 2
+    - _Voronoi_Speed: 0.52
+    - _Voronoi_Stretch: 3
     - _ZWrite: 1
     - _smoothness: 1
     m_Colors:
@@ -128,6 +128,7 @@ Material:
     - _Color_C: {r: 0, g: 1, b: 1, a: 0}
     - _Color_D: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Voronoi_Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5256821462634215861
 MonoBehaviour:

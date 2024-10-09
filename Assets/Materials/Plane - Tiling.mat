@@ -90,9 +90,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _Displacement: 0.1
     - _DstBlend: 0
-    - _Flow_Loop_Length: 0.1
+    - _Flow_Loop_Length: 10
     - _Flow_Speed: 0.01
-    - _Flow_Strength: 0.65
+    - _Flow_Strength: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -127,6 +127,7 @@ Material:
     - _Color_C: {r: 0, g: 1, b: 1, a: 0}
     - _Color_D: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Voronoi_Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3834261127094821643
 MonoBehaviour:
