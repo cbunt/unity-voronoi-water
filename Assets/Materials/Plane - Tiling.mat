@@ -88,10 +88,11 @@ Material:
     - _Change_Speed: 0.25
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Displacement: 0.07
+    - _Displacement: 0.1
     - _DstBlend: 0
-    - _Flow_Speed: 0.1
-    - _Flow_Strength: 5
+    - _Flow_Loop_Length: 0.1
+    - _Flow_Speed: 0.01
+    - _Flow_Strength: 0.65
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -104,7 +105,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SPACE: 0
-    - _Smoothness: 0.79
+    - _Smoothness: 0.7
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -112,6 +113,11 @@ Material:
     - _Stroke_Sqaush: 58.06
     - _UVSec: 0
     - _VoronoiAngleOffset: 15
+    - _Voronoi_Angle_Offset: 15
+    - _Voronoi_Scale: 2
+    - _Voronoi_Shear: 10
+    - _Voronoi_Speed: 0.2
+    - _Voronoi_Stretch: 7
     - _ZWrite: 1
     - _smoothness: 0
     m_Colors:

@@ -19,7 +19,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -72,8 +73,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 1
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 1
+    - _BUILTIN_Surface: 0
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 0
     - _BumpScale: 1
     - _COLOR_IN_FRAG: 0
     - _Change_Speed: 0.5
@@ -81,8 +91,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _Displacement: 0.175
     - _DstBlend: 0
+    - _Flow_Loop_Length: 0.1
     - _Flow_Speed: 0.075
-    - _Flow_Strength: 10
+    - _Flow_Strength: 8.38
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -103,6 +114,11 @@ Material:
     - _Stroke_Sqaush: 3
     - _UVSec: 0
     - _VoronoiAngleOffset: 15
+    - _Voronoi_Angle_Offset: 3.7
+    - _Voronoi_Scale: 3
+    - _Voronoi_Shear: 2
+    - _Voronoi_Speed: 0.25
+    - _Voronoi_Stretch: 2
     - _ZWrite: 1
     - _smoothness: 1
     m_Colors:
