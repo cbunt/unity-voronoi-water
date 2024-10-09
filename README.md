@@ -31,7 +31,7 @@ Unscaled offset added to noise sample coordinates.
 
 `Flow Loop Length`
 
-Duration of the flow animation in seconds. Loops will only be noticeable when $ \text{Voronoi Speed} \times \text{Flow Loop Length} < 1$. Higher values also cause greater distortion. 
+Duration of the flow animation in seconds. Loops will only be noticeable when $\text{Voronoi Speed} \times \text{Flow Loop Length} < 1$. Higher values also cause greater distortion. 
 
 `Flow Strength`
 
@@ -49,14 +49,12 @@ Scale of the flow vector. Higher values increase the apparent flow speed and the
 
 Coordinate space of the noise sample position.
 
-**Object**   
-Noise is unaffected by the object's position or orientation.
-
-**World**  
-All calculations are done in world space, allowing animations to be tiled across separate meshes. For complex geometry, flow directions will be increasingly distorted the farther the mesh is from the origin. Useful for terrain and other static objects with simple geometry. 
-
-**World Sample**  
-Flow vector stretching is done in object space and converted to world space before noise sampling. Noise is relative to world space position without the directional distortion seen with the **World** option, at the cost of no longer tiling across meshes.
+- **Object**   
+  Noise is unaffected by the object's position or orientation.
+- **World**  
+  All calculations are done in world space, allowing animations to be tiled across separate meshes. For complex geometry, flow directions will be increasingly distorted the farther the mesh is from the origin. Useful for terrain and other static objects with simple geometry. 
+- **World Sample**  
+  Flow vector stretching is done in object space and converted to world space before noise sampling. Noise is relative to world space position without the directional distortion seen with the **World** option, at the cost of no longer tiling across meshes.
 
 
 ## Process
@@ -73,7 +71,7 @@ Where the time value $t_f$ and the sample coordinate $S$ are given by
 
 $t_f = frac(\frac{\text{Time}}{\text{FlowLoopLength}} + \text{flowOffset})$
 
-$P_{\text{s}} = \text{proj}_{F}P + \text{VoronoiStretch} \times \text{oproj}_{F}P$
+$P_s = \text{proj}_F P + \text{VoronoiStretch} \times \text{oproj}_F P$
 
 $S_{xyz} = \text{VoronoiScale} \times (P_{\text{s}} - t_fF) + \text{VoronoiOffset}_{xyz}$
 
