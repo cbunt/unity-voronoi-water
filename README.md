@@ -4,7 +4,7 @@
 
 A stylized procedural water-esque shader made in Unity using 4D voronoi noise and flowmaps. 
 
-The project includes a shader graph, two models, three example materials each including a flow map and a three gradient LUT, and a sample scene composed of four meshes demonstrating the included materials.
+The project includes a shader graph, two models, three example materials each including a flow map and a gradient LUT, and a sample scene composed of four meshes demonstrating the included materials.
 
 
 ## Parameters
