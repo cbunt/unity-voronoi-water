@@ -59,7 +59,7 @@ Coordinate space of the noise sample position.
 
 ## Process
 
-Let $P$ be the vertex position in selected coordinate space and $F$ be the UV sampled flow vector converted from tangent space to the selected coordinate space scaled by Flow Strength.
+Let $P$ be the vertex position in the selected coordinate space and $F$ be the UV sampled flow vector converted from tangent space to the selected coordinate space scaled by Flow Strength.
 
 The voronoi cell $C$ for each vertex is then found in the vertex shader by:
 
