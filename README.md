@@ -75,6 +75,6 @@ $P_s = \text{proj}_F P + \text{VoronoiStretch} \times \text{oproj}_F P$
 
 $S_{xyz} = \text{VoronoiScale} \times (P_{\text{s}} - t_fF) + \text{VoronoiOffset}_{xyz}$
 
-$S_w = \text{Voronoi Speed} \times \text{Time} + \text{VoronoiOffset}_w$
+$S_w = \text{VoronoiSpeed} \times \text{Time} + \text{VoronoiOffset}_w$
 
 $C$ is then used to displace the vertex to $P + C \times \text{Displacement} \times \text{Vertex Normal}$ and to sample the gradient LUT at $(C,0)$ in the fragment shader for albedo values.
